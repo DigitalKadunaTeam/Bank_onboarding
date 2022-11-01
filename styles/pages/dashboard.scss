@@ -1,0 +1,73 @@
+.dashboard__container {
+    .header {
+        @apply flex mb-12;
+
+        .header__text {
+            h2 {
+                font-size: 1.5rem
+            }
+            @apply flex-1;
+        }
+
+
+        .btn__wrapper{
+            @apply h-24 w-52;
+        }
+    }
+
+    .cards {
+        @apply grid grid-cols-3 gap-x-8;
+    }
+}
+
+
+::-webkit-calendar-picker-indicator {
+    background-image:url('/svg/calendar.svg');
+    cursor: pointer;
+    margin-left: .5rem;
+}
+
+
+.new__container {
+    @apply flex-col h-full w-full flex items-center text-base pt-12 lg:pt-20 relative text-start;
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h2 + div {
+        @apply mb-10 mt-1 text-lg;
+    }
+
+    section.main {
+        @apply w-130;
+    }
+
+    .otp__text  {
+        @apply text-sm mb-6;
+
+        span {
+            @apply text-primaryBlue underline;
+        }
+    }
+
+    .details {
+        width: 66.666667%;
+    }
+
+    .column {
+        @apply grid gap-x-6 grid-cols-2;
+    }
+
+    button.go__back.details {
+       @apply xl:w-full w-8/12;
+     }
+
+    button.go__back {
+        @apply xl:absolute mb-12 xl:mb-0 xl:w-full w-130 flex font-extrabold text-lg items-center;
+
+        div {
+            @apply ml-2;
+        }
+    }
+}

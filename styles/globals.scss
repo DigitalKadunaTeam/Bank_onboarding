@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+    overflow: hidden;
+    font-family: Montserrat;
+    font-weight: 400;
+    background: rgba(4, 9, 33, 0.03);
+
+    h2 {
+        font-family: Montserrat;
+        font-weight: 800;
+        @apply text-black76 font-extrabold text-3xl;
+    }
+
+}
+  
+@import "./components/index.scss";
+@import "./pages/index.scss"

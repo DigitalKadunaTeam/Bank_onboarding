@@ -1,0 +1,24 @@
+
+.login__container {
+    @apply flex-col h-full w-full flex items-center text-base text-center mt-32;
+
+    section {
+       @apply w-130;
+    }
+
+    h2 + div {
+        margin-bottom: 2.5rem;
+        margin-top: 0.5rem;
+    }
+
+    .reset__password {
+        @apply flex flex-row my-6 text-sm underline text-primaryBlue;
+        font-family: AvenirBold;
+        font-weight: 700;
+        
+        div:first-child {
+            flex:1
+        }
+    }
+}
+

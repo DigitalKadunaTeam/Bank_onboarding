@@ -1,0 +1,6 @@
+.btn__container {
+   @apply bg-primaryBlue text-white w-full py-2 rounded-lg text-base;
+   button {
+    @apply w-full h-full;
+   }
+}
